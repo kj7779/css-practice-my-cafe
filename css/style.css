@@ -81,7 +81,7 @@ a:hover{
 .content {
     display: flex; /* flexbox */
 	flex-wrap: wrap; /* 折返し指定 */
-    margin: 0 10px;
+    margin: 0 auto;
     @media screen and (max-width:480px) {
         margin:auto;   
        }
