@@ -5,7 +5,6 @@ body {
     color: #333;
     max-width: 960px;
     margin:0 auto;
-    -webkit-text-size-adjust:100%;
   }
 
 section {
@@ -36,16 +35,6 @@ h2{
 li{
     display: block;
     list-style: none;
-}
-
-li:before {
-    content:"★";
-    color: brown;
-}
-
-li:after {
-    content:"★";
-    color:brown;
 }
 
 ul{
