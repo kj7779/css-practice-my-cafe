@@ -82,6 +82,9 @@ a:hover{
     display: flex; /* flexbox */
 	flex-wrap: wrap; /* 折返し指定 */
     margin: 0 10px;
+    @media screen and (max-width:480px) {
+        margin:auto;   
+       }
 }
 
 .content-inner {
@@ -100,14 +103,10 @@ a:hover{
 }
 
 .content-inner3{
-    width:30%;
+    width:100%;
     position:relative;
     text-align: center;
     margin: auto;
-
-    @media screen and (max-width:480px) {
-        width:200px;   
-       }
 }
 
 .inner-img {
@@ -120,8 +119,9 @@ a:hover{
 }
 
 .blog-list {
-    border: 1px solid brown; border-radius: 5px;
-    padding: 20px 30px;
+    border: 1px solid brown; border-radius:5px;
+    padding: 20px 20px;
+    width:200px;
     text-align: center;
     margin: auto;
     font-weight: bold;
