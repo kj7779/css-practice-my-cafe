@@ -55,7 +55,7 @@ ul{
     justify-content: space-between;
     margin : 0 auto;
     @media screen and (max-width:480px) {
-        width: 250px;
+        width: 200px;
     }
 }
 
@@ -99,7 +99,7 @@ a:hover{
     width:32%;
     margin: 0 auto 30px;
     @media screen and (max-width:480px) {
-     width:50%;   
+     width:48%;   
     }
 }
 
