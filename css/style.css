@@ -99,7 +99,7 @@ a:hover{
     width:32%;
     margin: 0 auto 30px;
     @media screen and (max-width:480px) {
-     width:47%;   
+     width:50%;   
     }
 }
 
