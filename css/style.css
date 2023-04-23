@@ -5,14 +5,17 @@ body {
     color: #333;
     max-width: 960px;
     margin:0 auto;
-  }
+}
 
 section {
+    width: 95%;
     margin: 80px auto;
-    @media screen and (max-width:480px) {
-        margin: 40px auto;
-    }
 }
+    @media screen and (max-width:480px) {
+        section {
+        margin: 40px auto;
+         }
+    }
 
 h1 {
     /* display: flex;
@@ -37,16 +40,18 @@ li{
     list-style: none;
 }
 
-ul{
+ul {
     padding: 0;
     width: 400px;
     display: flex;
     justify-content: space-between;
-    margin : 0 auto;
-    @media screen and (max-width:480px) {
-        width: 200px;
-    }
+    margin: 20px auto;
 }
+    @media screen and (max-width:480px) {
+        ul {
+            width: 70%;
+        }
+    }
 
 a {
 text-decoration: none;
@@ -60,8 +65,8 @@ a:hover{
 .main-visual {
     width: 100%;
     height: 400px;
-    object-fit: cover; 
-   }
+    object-fit: cover;
+}
 
 .header-menu {
     width: 100%;
@@ -70,12 +75,14 @@ a:hover{
 
 .content {
     display: flex; /* flexbox */
-	flex-wrap: wrap; /* 折返し指定 */
+    flex-wrap: wrap; /* 折返し指定 */
     margin: 0 auto;
-    @media screen and (max-width:480px) {
-        margin:auto;   
-       }
 }
+    @media screen and (max-width:480px) {
+        .content {
+            margin: auto;
+        }
+    }
 
 .content-inner {
     width:49%;
@@ -84,13 +91,15 @@ a:hover{
 }
 
 .content-inner2 {
-   display:inline-block;
-    width:32%;
+    display: inline-block;
+    width: 32%;
     margin: 0 auto 30px;
-    @media screen and (max-width:480px) {
-     width:48%;   
-    }
 }
+    @media screen and (max-width:480px) {
+        .content-inner2 {
+            width: 45%;
+        }
+    }
 
 .content-inner3{
     width:100%;
@@ -102,9 +111,11 @@ a:hover{
 .inner-img {
     width: 100%;
     height: 300px;
-    object-fit: cover; 
+    object-fit: cover;
+}
     @media screen and (max-width:480px) {
-     height:200px;   
+        .inner-img {
+     height:200px;
     }
 }
 
@@ -115,7 +126,6 @@ a:hover{
     text-align: center;
     margin: auto;
     font-weight: bold;
-    
 }
 
 .blog-list::after {
@@ -132,7 +142,6 @@ a:hover{
     margin-top: -10px;
     font-size:13px;
 }
-
 
 .footer {
     background: black;
